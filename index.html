@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>TravelBloom - Home</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+    <!-- Naviqasiya -->
+    <nav>
+        <div class="logo">
+            <span class="icon">🌴</span> TravelBloom
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Giriş -->
+    <header class="hero">
+        <div class="overlay">
+            <div class="content">
+                <h1>Welcome to TravelBloom</h1>
+                <p>Explore the world and discover the best destinations for your next adventure!</p>
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search by country...">
+                    <button onclick="handleSearch()">Search</button>
+                </div>
+                <div id="results"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tövsiyələr -->
+    <section class="recommendations">
+        <h2>Beach Recommendations</h2>
+        <div class="gallery">
+            <img src="photos/beach1.jpg" alt="Beach 1">
+            <img src="photos/beach2.jpg" alt="Beach 2">
+        </div>
+
+        <h2>Temple Recommendations</h2>
+        <div class="gallery">
+            <img src="photos/temple1.jpg" alt="Temple 1">
+            <img src="photos/temple2.jpg" alt="Temple 2">
+        </div>
+
+        <h2>Country Recommendations</h2>
+        <div class="gallery">
+            <img src="photos/country1.jpg" alt="Country 1">
+            <img src="photos/country2.jpg" alt="Country 2">
+        </div>
+    </section>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
